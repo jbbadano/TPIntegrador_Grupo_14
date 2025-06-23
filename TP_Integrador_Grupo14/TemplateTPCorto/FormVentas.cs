@@ -29,7 +29,7 @@ namespace TemplateTPCorto
         public FormVentas(string idUsuario)
         {
             InitializeComponent();
-            _idUsuario = idUsuario;
+            _idUsuario = "784c07f2-2b26-4973-9235-4064e94832b5"; // Hardcodeado como GUID requerido por la API
             _ventasNegocio = new VentasNegocio();
             _productosEnCarrito = new List<ProductoCarrito>();
             ConfigurarLayout();
